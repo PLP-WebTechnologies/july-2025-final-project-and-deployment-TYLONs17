@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | The Atomic Archives</title>
+    <meta
+      name="description"
+      content="Contact the hidden organization. Submit your applications and intelligence reports to Shadow Garden."
+    />
+    <meta
+      name="keywords"
+      content="Contact Shadow Garden, Secret Communication, Intelligence Report, Join Shadow Garden"
+    />
+    <link rel="canonical" href="https://www.example.com/contact.html" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header: Consistent across all pages -->
+    <header class="main-header">
+      <div class="header-content">
+        <h1>I AM ATOMIC!</h1>
+        <p>Unleash the supreme power of knowledge and hidden mastery.</p>
+      </div>
+      <!-- Primary Navigation: Consistent across all pages -->
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="philosophy.html" class="nav-link">Philosophy</a></li>
+          <li><a href="arsenal.html" class="nav-link">Arsenal</a></li>
+          <li><a href="chronicles.html" class="nav-link">Chronicles</a></li>
+          <li>
+            <a href="contact.html" class="nav-link current-page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content Area: Unique content for the Contact page -->
+    <main class="main-content">
+      <section id="shadow-garden-application" class="content-section">
+        <h2>Shadow Garden Application: Prove Your Worth</h2>
+        <p>
+          To communicate with the true power, complete this application with
+          utmost precision. Your intelligence and commitment will be evaluated.
+        </p>
+
+        <!-- novalidate attribute disables browser's default HTML5 validation -->
+        <form id="applicationForm" class="application-form" novalidate>
+          <div class="form-group">
+            <label for="applicantName">Codename:</label>
+            <input
+              type="text"
+              id="applicantName"
+              name="applicantName"
+              placeholder="Your Shadow Operative Name"
+              required
+            />
+            <span class="error-message" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="applicantEmail">Encrypted Email:</label>
+            <input
+              type="email"
+              id="applicantEmail"
+              name="applicantEmail"
+              placeholder="your.secure@shadow.org"
+              required
+            />
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="secretCode">Secret Activation Code:</label>
+            <input
+              type="password"
+              id="secretCode"
+              name="secretCode"
+              minlength="8"
+              required
+            />
+            <span class="error-message" id="codeError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="motivation"
+              >Motivation (Why join Shadow Garden?):</label
+            >
+            <textarea
+              id="motivation"
+              name="motivation"
+              rows="5"
+              placeholder="Elaborate on your atomic ambitions..."
+              required
+            ></textarea>
+            <span class="error-message" id="motivationError"></span>
+          </div>
+
+          <button type="submit" class="atomic-button form-submit-button">
+            Submit Application
+          </button>
+        </form>
+      </section>
+
+      <section id="ultimate-revelation" class="media-section content-section">
+        <h2>The Ultimate Revelation</h2>
+        <p>Witness the embodiment of precision, control, and absolute power.</p>
+
+        <figure class="media-figure">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7ZLS5KNDelI"
+            title="YouTube video player for I AM ATOMIC"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <figcaption>The moment of ultimate declaration.</figcaption>
+        </figure>
+
+        <figure class="media-figure">
+          <img
+            src="https://i.ytimg.com/vi/na7TkyIk6B8/maxresdefault.jpg"
+            alt="Cid Kagenou from The Eminence in Shadow posing dramatically with a powerful aura, related to the I AM ATOMIC meme."
+            width="560"
+          />
+          <figcaption>A visual of the atomic essence.</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <!-- Footer: Consistent across all pages -->
+    <footer class="main-footer">
+      <p>
+        &copy; 2025 The Atomic Archives. All Rights Reserved. The atomic echo
+        resonates.
+      </p>
+      <address>
+        <p>
+          For enquiries:
+          <a href="mailto:atomic_support@shadowgarden.org"
+            >atomic_support@shadowgarden.org (We are always watching.)</a
+          >
+        </p>
+      </address>
+    </footer>
+
+    <!-- Link to our JavaScript file -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
